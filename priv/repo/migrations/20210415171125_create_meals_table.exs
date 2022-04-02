@@ -3,9 +3,9 @@ defmodule Exmeal.Repo.Migrations.CreateMealsTable do
 
   def change do
     create table(:meals) do
-      add :descricao, :string
-      add :data, :utc_datetime
-      add :caloria, :integer
+      add :description, :string
+      add :date, :date
+      add :calories, :integer
     end
   end
 end
