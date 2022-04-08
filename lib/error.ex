@@ -1,4 +1,4 @@
-defmodule Exmeal.Error do
+ defmodule Exmeal.Error do
   @keys [:status, :result]
 
   @enforce_keys @keys
